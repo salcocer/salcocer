@@ -13,8 +13,8 @@
 	psu = push --set-upstream origin
 	prn = remote prune origin
 [user]
-	email = saavalencia97@gmail.com
-	name = Alejandro Alcocer
+	email = alejandro.alcocer-valencia@t-systems.com
+	name = Alejandro Alcocer Valencia
 [core]
 	editor = vim
 	pager = cat
@@ -24,3 +24,5 @@
 	prompt = false
 [pull]
 	rebase = false
+[coderabbit]
+	machineId = cli/a139aaa2cd1242d19a06ff479b282bf0
