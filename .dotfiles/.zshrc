@@ -66,15 +66,13 @@ fi
   alias gemail="git config user.email"
   alias gname="git config user.name"
 
-  alias np="pnpm"
-  # alias ni="npm install"
-  # alias nr='npm run'
-  # alias nrdev="npm run dev"
-  # alias nrtest="npm run test"
-  # alias nrstart="npm run start"
-  # alias nrbuild="npm run build"
-  # alias nrstory="npm run storybook"
-  # alias nrtest:coverage="npm run test-coverage"
+  alias nr='npm run'
+  alias nrdev="npm run dev"
+  alias nrtest="npm run test"
+  alias nrstart="npm run start"
+  alias nrbuild="npm run build"
+  alias nrstory="npm run storybook"
+  alias nrtest:coverage="npm run test-coverage"
 
   alias llama="ollama run llama2"
   alias llcode="ollama run codellama"
