@@ -5,7 +5,7 @@ plugins=(sudo zsh-autosuggestions git)
 if [[ `uname` == "Darwin" ]]; then
   export ZSH="/Users/csaav/.oh-my-zsh"
 else
-  export ZSH="/home/mrobot/.oh-my-zsh"
+  export ZSH="/home/csaav/.oh-my-zsh"
 fi
   alias pip="~/.local/bin/pip"
   alias gdown="~/.local/bin/gdown"
@@ -146,7 +146,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # pnpm
-export PNPM_HOME="/home/mrobot/.local/share/pnpm"
+export PNPM_HOME="/home/csaav/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
