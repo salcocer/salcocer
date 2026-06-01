@@ -1,4 +1,4 @@
-stty -ixon
+#stty -ixon
 
 plugins=(sudo zsh-autosuggestions git)
 
@@ -7,23 +7,23 @@ if [[ `uname` == "Darwin" ]]; then
 else
   export ZSH="/home/csaav/.oh-my-zsh"
 fi
-  alias pip="~/.local/bin/pip"
-  alias gdown="~/.local/bin/gdown"
-  alias py="python3"
-  alias nv="nvim"
+  # alias pip="~/.local/bin/pip"
+  # alias gdown="~/.local/bin/gdown"
+  # alias py="python3"
+  # alias nv="nvim"
   alias fontlist="fc-list : family | tr ',' '\n' | sort -u"
-  alias mongostatus="sudo systemctl status mongod"
-  alias mongostart="sudo systemctl start mongod"
-  alias rmswp="find . -type f -name '*.swp' -exec rm -f {} \;"
-  alias gunzip="tar xzvf"
+  # alias mongostatus="sudo systemctl status mongod"
+  # alias mongostart="sudo systemctl start mongod"
+  # alias rmswp="find . -type f -name '*.swp' -exec rm -f {} \;"
+  # alias gunzip="tar xzvf"
   alias openports="netstat -tulpn | grep LISTEN"
-  alias cm="cmatrix"
-  alias c:regts="~/tsystems/registro-electronico/"
-  alias c:regpro="~/Projects/registro-electronico-2.0/"
-  alias c:jw="~/Projects/JWTrivial"
-  alias c:jwgame="~/Projects/JWTrivial/jwgame/"
-  alias c:jwback="~/Projects/JWTrivial/jwback/"
-  alias c:sst="~/Projects/AWS-Projects/sst-app/"
+  # alias cm="cmatrix"
+  # alias c:regts="~/tsystems/registro-electronico/"
+  # # alias c:regpro="~/Projects/registro-electronico-2.0/"
+  # alias c:jw="~/Projects/JWTrivial"
+  # alias c:jwgame="~/Projects/JWTrivial/jwgame/"
+  # alias c:jwback="~/Projects/JWTrivial/jwback/"
+  # alias c:sst="~/Projects/AWS-Projects/sst-app/"
 
   alias run:android="cd ~/android-studio/bin && ./studio.sh"
   alias nf="neofetch"
@@ -35,7 +35,7 @@ fi
   alias voc="code . && exit"
   alias to="gnome-terminal"
   alias toc="gnome-terminal && exit"
-  alias ch="google-chrome --disable-features=InfiniteSessionRestore --new-window --app"
+  # alias ch="google-chrome --disable-features=InfiniteSessionRestore --new-window --app"
   alias rb="systemctl reboot -i"
   alias pw="poweroff"
   alias srb="sudo reboot"
@@ -66,28 +66,28 @@ fi
   alias gemail="git config user.email"
   alias gname="git config user.name"
 
-  alias npm='pnpm'
-  alias nr='pnpm run'
-  alias nrdev="pnpm run dev"
-  alias nrtest="pnpm run test"
-  alias nrstart="pnpm run start"
-  alias nrbuild="pnpm run build"
-  alias nrstory="pnpm run storybook"
-  alias nrtest:coverage="pnpm run test-coverage"
+   alias npm='pnpm'
+   alias nr='pnpm run'
+   alias nrdev="pnpm run dev"
+   alias nrtest="pnpm run test"
+   alias nrstart="pnpm run start"
+   alias nrbuild="pnpm run build"
+   alias nrstory="pnpm run storybook"
+   alias nrtest:coverage="pnpm run test-coverage"
 
-  alias llama="ollama run llama2"
-  alias llcode="ollama run codellama"
+  # alias llama="ollama run llama2"
+  # alias llcode="ollama run codellama"
 
-  alias adb:list='emulator -list-avds'
-  alias adb:debug='adb shell input keyevent 82'
-  alias aws:configure="aws configure"
-  alias aws:config="cat ~/.aws/config"
-  alias aws:region="aws configure get region"
-  alias aws:ec2="aws ec2 describe-vpcs | cat"
-  alias aws:credentials="cat ~/.aws/credentials"
-  alias cdk:init="echo cdk init --language typescript"
-  alias aws:identity="aws sts get-caller-identity | cat"
-  alias aws:bootstrap="echo cdk bootstrap aws://ACCOUNT-NUMBER/REGION"
+  # alias adb:list='emulator -list-avds'
+  # alias adb:debug='adb shell input keyevent 82'
+  # alias aws:configure="aws configure"
+  # alias aws:config="cat ~/.aws/config"
+  # alias aws:region="aws configure get region"
+  # alias aws:ec2="aws ec2 describe-vpcs | cat"
+  # alias aws:credentials="cat ~/.aws/credentials"
+  # alias cdk:init="echo cdk init --language typescript"
+  # alias aws:identity="aws sts get-caller-identity | cat"
+  # alias aws:bootstrap="echo cdk bootstrap aws://ACCOUNT-NUMBER/REGION"
 
   alias se="echo '|   Commit type         | Emoji              |  
 |-----------------------|--------------------|  
@@ -124,31 +124,34 @@ DISABLE_AUTO_TITLE="true"
 export EDITOR=/usr/bin/vim  
 export VISUAL=/usr/bin/vim
 
-export ANDROID_HOME=$HOME/Android/Sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-export HOSTALIASES=~/.hosts
+#export ANDROID_HOME=$HOME/Android/Sdk
+#export PATH=$PATH:$ANDROID_HOME/emulator
+#export PATH=$PATH:$ANDROID_HOME/tools
+#export PATH=$PATH:$ANDROID_HOME/tools/bin
+#export PATH=$PATH:$ANDROID_HOME/platform-tools
+#export HOSTALIASES=~/.hosts
 #export PATH=$PATH:$HOME/Programs/aseprite/build/bin
 
-export PATH=$PATH:/usr/local/go/bin
+alias android-studio="/opt/android-studio/bin/studio"
 
-JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
-PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
-export JAVA_HOME
-export JRE_HOME
-export PATH
-export PAGER=cat
+#export PATH=$PATH:/usr/local/go/bin
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+#PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+#export JAVA_HOME
+#export JRE_HOME
+#export PATH
+#export PAGER=cat
 
-# pnpm
-export PNPM_HOME="/home/csaav/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#
+## pnpm
+# export PNPM_HOME="/home/csaav/.local/share/pnpm"
+# export PNPM_HOME="/home/mrobot/.nvm/versions/node/v24.16.0/bin/pnpm"
+# case ":$PATH:" in
+  # *":$PNPM_HOME:"*) ;;
+  # *) export PATH="$PNPM_HOME:$PATH" ;;
+# esac
+## pnpm end

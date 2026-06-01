@@ -108,7 +108,7 @@ inoremap <silent><expr> <cr> "\<c-g>u\<CR>"
 "nmap <silent> gi <Plug>(coc-implementation)
 "nmap <silent> gr <Plug>(coc-references)
 
-call plug#begin('~/.vim/plugged') 
+" call plug#begin('~/.vim/plugged') 
 "  Plug 'mhinz/vim-startify'
 "  Plug 'itchyny/lightline.vim'
 "  Plug 'vim-airline/vim-airline'
@@ -123,7 +123,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'prettier/vim-prettier', {
 "     \ 'do': 'npm install --frozen-lockfile --production',
 "     \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
-call plug#end()
+" call plug#end()
 
 "colorscheme vim-monokai-tasty 
 autocmd BufNewFile,BufRead *.tsx,*.jsx,*.ts set filetype=typescriptreact
