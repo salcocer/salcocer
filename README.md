@@ -1,24 +1,10 @@
+### Hey 👋
 
-
-
-<!--
-**stalynAlejandro/stalynAlejandro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-
-sudo apt install xclip 
-
--->
+- 📱 Shipping cross-platform mobile apps with React / React Native
+- 🛠️ Build backends with Java / Spring Boot 
+- ⚙️ Clean, scalable REST APIs
+- 📈 Trading systems, prediction markets, and crypto
+- [🌐](https://saav-super-rn.onrender.com) ... 
 
 
 
